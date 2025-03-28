@@ -10,7 +10,7 @@ from sentence_transformers import SentenceTransformer
 import chromadb
 
 # Database connection
-db_path = r"C:\Users\vishp\Downloads\eng_subtitles_database.db"
+db_path = r""C:\Users\srikar\Downloads\eng_subtitles_database.db"
 connection = sqlite3.connect(db_path)
 cursor = connection.cursor()
 
